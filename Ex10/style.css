@@ -1,0 +1,11 @@
+/* style.css */
+body {
+    font-size: 16px;
+    color: rgb(124, 5, 184);
+    background-color: #000000;
+
+    /* περίπου όσο τα default margins του Word */
+    margin: 0;
+    padding: 2.5cm; 
+    box-sizing: border-box;
+}
