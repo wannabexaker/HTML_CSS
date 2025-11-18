@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{font-family:'Poppins', sans-serif;}
 
 .none-el{
@@ -6,4 +7,24 @@ body{font-family:'Poppins', sans-serif;}
 
 .hidden-el{
     visibility: hidden;
+=======
+
+
+
+
+.card{
+
+}
+
+.card-input{
+
+}
+
+.card-button{
+
+}
+
+.hover{
+    opacity: 90%;
+>>>>>>> a87447796572587795dbe3c466266a436c618c6d
 }

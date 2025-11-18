@@ -1,0 +1,41 @@
+**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    
+    padding: 30px;
+    text-align: center;
+}
+
+h3, p{
+    margin: 0;
+}
+
+.box {
+    background-color: rgb(34, 34, 34);
+    color: rgba(255, 255, 255, 0.664);      /*Extra*/
+    border: 3px solid rgb(113, 0, 189);     /*Extra*/
+    max-width: 300px;
+    margin: 30px;
+    padding: 20px 30px 20px 35px ; /* Panw Deksia Katw Aristera */
+    
+}
+
+.box-1{
+    margin-left: 100;
+}
+
+
+.box-2{
+    background-color:rgb(35, 11, 58)
+}

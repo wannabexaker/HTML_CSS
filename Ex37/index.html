@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Padding Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Display Property</h1>
+    <button id="toggleNone">Toggle Display None</button>
+    <button id="toggleHidden">Toggle Visibility Hidden</button>
+
+    <h2 class="none-el" id="noneTarget">Display: none element</h2>
+    <h2 class="hidden-el" id="hiddenTarget">Visibility: hidden element</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quidem nobis saepe! Voluptate, excepturi
+        quibusdam. Quae illum tenetur, officia laboriosam aspernatur, ipsum praesentium tempore fuga repudiandae
+        molestiae, ipsam quam ut?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat delectus ut qui molestias consequuntur quasi
+        vitae libero ipsum blanditiis, error perferendis cupiditate soluta itaque nulla, explicabo dolor ad aliquid
+        exercitationem!</p>
+
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+
+    <script>
+        const noneBtn = document.getElementById("toggleNone");
+        const hiddenBtn = document.getElementById("toggleHidden");
+        const noneTarget = document.getElementById("noneTarget");
+        const hiddenTarget = document.getElementById("hiddenTarget");
+
+        noneBtn.addEventListener("click", () => {
+            if (noneTarget.style.display === "none" || !noneTarget.style.display) {
+                noneTarget.style.display = "block";
+            } else {
+                noneTarget.style.display = "none";
+            }
+        });
+
+        hiddenBtn.addEventListener("click", () => {
+            if (hiddenTarget.style.visibility === "hidden" || !hiddenTarget.style.visibility) {
+                hiddenTarget.style.visibility = "visible";
+            } else {
+                hiddenTarget.style.visibility = "hidden";
+            }
+        });
+    </script>
+
+</body>
+
+</html>
