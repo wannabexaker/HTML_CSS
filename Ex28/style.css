@@ -1,0 +1,30 @@
+body{
+    font-family:'Poppins','Arial', sans-serif;
+    /* border: 3px solid red; */
+    line-height: 2; 
+    /* background-color: #ffffff; */
+    background: rgb(225, 233, 189);
+}
+a{text-decoration: none;}
+h2{
+    font-size: x-large; 
+    font-weight: 700; 
+    font-style: normal; 
+    font-variant: small-caps;
+    text-transform: capitalize;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-align: center;
+}
+
+.sporty{color: blue;}
+.casual{color: red;}
+.formal{color: green;}
+
+.sporty,.casual, .formal{font-size: 35px;}
+
+#container{max-width: 600px; margin: 100px; padding: 20px;}
+
+.card{background-color: rgba(0, 0, 0, 0.5);}
+.card-2{background-color: #000000e1; color: #6e5d97; opacity: 0.2;}

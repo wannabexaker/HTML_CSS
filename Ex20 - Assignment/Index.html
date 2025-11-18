@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Learn HTML and CSS" />
+    <meta name="keywords" content="HTML, CSS, Web Development, HTML tutorial" />
+    <title>MyFirstWebPage</title>
+  </head>
+  <body>
+    <form action="/submit" method="post">
+      <div class="tile" id="title">
+        <h2>Apartment Search</h2>
+      </div>
+
+      <div id="location">
+        <label for="location">Location</label>
+        <input 
+          type="text"
+          id="location"
+          name="location"
+          minlength="3"
+          maxlength="20"
+          required
+        />
+      </div>
+
+      <br/>
+
+      <div id="price">
+        <label for="range">Price</label>
+        <input 
+          type="range"
+          name="range"
+          id="range"
+        />
+      </div>
+
+      <br/>
+
+      <div id="bedrooms">
+        <label for="bedrooms">Bedrooms</label>
+        <input
+          type="number" 
+          id="bedrooms" 
+          name="bedrooms" 
+          min="0" 
+          step="1"
+          value="0"
+        />
+      </div>
+
+      <br/>
+
+      <div id="bathrooms">
+        <label for="bathrooms">Bathrooms</label>
+        <input 
+          type="number"
+          id="bathrooms" 
+          name="bathrooms" 
+          min="0" 
+          step="1" 
+          value="0"
+        />
+      </div>
+
+      <br/>
+
+      <div id="pets">
+        <label for="pets">
+          Pets
+          <input 
+            type="checkbox"
+            id="pets"
+            name="pets"
+            value="yes"
+            checked
+          />
+        </label>
+      </div>
+
+      <br/>
+
+      <div id="date">
+        <label for="date">
+          Date Available
+          <input
+            type="date"
+            id="date"
+            name="date"
+          />
+        </label>
+      </div>
+
+      <br/><br/>
+
+      <div id="submit">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
