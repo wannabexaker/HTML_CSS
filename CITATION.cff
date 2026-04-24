@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "HTML_CSS"
+abstract: "HTML and CSS learning exercises and examples"
+authors:
+  - name: "Ioannis"
+    alias: "wannabexaker"
+    website: "https://github.com/wannabexaker"
+repository-code: "https://github.com/wannabexaker/HTML_CSS"
+url: "https://github.com/wannabexaker/HTML_CSS"
+license: Apache-2.0
+date-released: "2025-11-07"
+keywords:
+  - "html, css, frontend"
+  - "css, frontend"
